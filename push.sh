@@ -1,0 +1,1 @@
+rsync -avPu -e "ssh -p $1" caption.py setup.sh root@$2:
