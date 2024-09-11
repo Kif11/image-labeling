@@ -1,3 +1,7 @@
+# Image Labeling
+
+ This is a set of scripts for images labeling using machine learning tools. It has a client server architecture. A small Python script that runs =microsoft/Florence2= model on a GPU cloud machine. And local bash script that fetch and populate detailed image Description.
+
 - Get GPU instance on vast.ai RTX 3060 should do
 - Run `push.sh` script to copy scripts to remote machine
 - SSH and map local port 5000 `ssh -p 33526 root@174.95.30.134 -L 5000:localhost:5000`
